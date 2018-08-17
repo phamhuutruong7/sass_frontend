@@ -1,13 +1,26 @@
-//Sass -@if
-$dieukien: mauvang;
-.main{
-	@if($dieukien == maudo){
-		background: red;
-	}
-	@elseif($dieukien == mauxanh){
-		background: blue;
-	}
-	@else{
-		background: #ccc;
+//Sass -@for
+
+.item-1{
+	width: 1em;
+}
+.item-2{
+	width: 2em;
+}
+.item-3{
+	width: 3em;
+}
+.item-4{
+	width: 4em;
+}
+.item-5{
+	width: 5em;
+}
+.item-6{
+	width: 6em;
+}
+
+@for $i from 1 through 6{
+	.item-#{$i}{
+		width:#{$i}em;
 	}
 }
