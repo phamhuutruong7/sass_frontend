@@ -1,34 +1,33 @@
 //Sass -@while
-.item1{
-	width: 12px;
-	height: 6px;
-}
-
-.item2{
-	width: 24px;
-	height: 12px;
-}
-
-.item3{
-	width: 36px;
-	height: 24px;
-}
-
-.item4{
-	width: 48px;
-	height: 36px;
-}
-
-.item5{
-	width: 60px;
-	height: 48px;
-}
-
-$n:1;
-@while($n < 6){
-	.item#{$n}{
-		width: 12px * $n;
-		height: 6px * $n;
+.menu{
+	width: 1200px; 
+	margin: 0 auto;
+	background: blue;
+	ul
+	{
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		li
+		{
+			float: left;
+			padding: 5px 80px;
+			a 
+			{
+				color: #fff;
+				font-size: 16px;
+				text-transform: uppercase;
+				line-height: 30px;
+				text-decoration: none;
+				&:hover{
+					color: red;
+				}
+			}
+		}
 	}
-	$n : $n + 1;
+}
+.clearfix:after{
+	content:'';
+	clear:both;
+	display:block;
 }
