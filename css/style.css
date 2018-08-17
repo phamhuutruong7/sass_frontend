@@ -1,31 +1,51 @@
 .item1 {
-  background: url("image/item1.png");
-  color: red;
+  width: 12px;
+  height: 6px;
 }
 
 .item2 {
-  background: url("image/item2.png");
-  color: blue;
+  width: 24px;
+  height: 12px;
 }
 
 .item3 {
-  background: url("image/item3.png");
-  color: black;
+  width: 36px;
+  height: 24px;
+}
+
+.item4 {
+  width: 48px;
+  height: 36px;
+}
+
+.item5 {
+  width: 60px;
+  height: 48px;
 }
 
 .item1 {
-  background: url("/image/item1.png");
-  color: red;
+  width: 12px;
+  height: 6px;
 }
 
 .item2 {
-  background: url("/image/item2.png");
-  color: blue;
+  width: 24px;
+  height: 12px;
 }
 
 .item3 {
-  background: url("/image/item3.png");
-  color: black;
+  width: 36px;
+  height: 18px;
+}
+
+.item4 {
+  width: 48px;
+  height: 24px;
+}
+
+.item5 {
+  width: 60px;
+  height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
