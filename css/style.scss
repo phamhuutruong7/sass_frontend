@@ -1,18 +1,25 @@
-@mixin border-rd($bien1, $bien2){
-	border-radius: $bien1 $bien2;
-	-moz-border-radius: $bien1 $bien2;
-	-webkit-border-radius: $bien1 $bien2;
-	-o-border-radius: $bien1 $bien2;
+.border{
+	border-radius: 10px 0px;
+  	-moz-border-radius: 10px 0px;
+  	-webkit-border-radius: 10px 0px;
+  	-o-border-radius: 10px 0px;
+}
+
+.background{
+	background: -moz-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+	background: -webkit-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+	background: -webkit-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+	background: -o-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+	background: -ms-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+	background: linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
 }
 
 .main{
 	width: 500px;
 	height: 200px;
-	@include border-rd(10px, 0px);
+	@extend .background;
 }
 
 .main2{
-	width: 700px;
-	height: 300px;
-	@include border-rd(10px, 5px);
+	@extend .border;
 }
