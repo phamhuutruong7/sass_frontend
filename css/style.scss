@@ -1,8 +1,13 @@
-//SASS Interpolation
-$name: main;
-$border: border;
-.container .#{$name}
-{
-	color:red;
-	#{$border}-color:#ccc;
+//Sass -@if
+$dieukien: mauvang;
+.main{
+	@if($dieukien == maudo){
+		background: red;
+	}
+	@elseif($dieukien == mauxanh){
+		background: blue;
+	}
+	@else{
+		background: #ccc;
+	}
 }
