@@ -1,22 +1,12 @@
-.main2 {
-  border-radius: 10px 0px;
-  -moz-border-radius: 10px 0px;
-  -webkit-border-radius: 10px 0px;
-  -o-border-radius: 10px 0px;
-}
-
-.background, .main {
-  background: -moz-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
-  background: -webkit-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
-  background: -webkit-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
-  background: -o-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
-  background: -ms-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
-  background: linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
-}
-
-.main {
-  width: 500px;
+.operations {
+  width: 600px;
+  width: 600px;
   height: 200px;
+  height: 400px;
+  margin-right: 1;
+  width: 498px;
+  color: #020406;
+  background: #050709;
 }
 
 /*# sourceMappingURL=style.css.map */
