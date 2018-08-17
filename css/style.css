@@ -1,45 +1,22 @@
 .main {
-  color: #00ff00;
+  color: black;
   width: 100%;
 }
-
 .main .main-content {
-  background-color: #ff0000;
-  color: #000000;
+  background-color: blue;
 }
-
 .main .main-content a {
   font-weight: bold;
-}
-
-.main .main-content a:hover {
-  color: red;
-}
-
-.main .main-info {
-  font-family: Arial;
   font-size: 30px;
-  font-weight: bold;
-}
-
-.main {
-  color: #00ff00;
-  width: 100%;
-}
-.main .main-content {
-  background-color: #ff0000;
-  color: #000000;
-}
-.main .main-content a {
-  font-weight: bold;
 }
 .main .main-content a:hover {
-  color: red;
+  color: blue;
 }
 .main .main-info {
   font-family: Arial;
   font-size: 30px;
   font-weight: bold;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
