@@ -1,26 +1,22 @@
-//Sass -@for
-
-.item-1{
-	width: 1em;
-}
-.item-2{
-	width: 2em;
-}
-.item-3{
-	width: 3em;
-}
-.item-4{
-	width: 4em;
-}
-.item-5{
-	width: 5em;
-}
-.item-6{
-	width: 6em;
+//Sass -@each
+.item1{
+	background: url("image/item1.png");
+	color: red;
 }
 
-@for $i from 1 through 6{
-	.item-#{$i}{
-		width:#{$i}em;
+.item2{
+	background: url("image/item2.png");
+	color: blue;
+}
+
+.item3{
+	background: url("image/item3.png");
+	color: black;
+}
+
+@each $var, $color in (item1,red),(item2,blue),(item3,black){
+	.#{$var}{
+		background: url("/image/#{$var}.png");
+		color: $color;
 	}
 }

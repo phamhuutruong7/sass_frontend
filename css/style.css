@@ -1,49 +1,31 @@
-.item-1 {
-  width: 1em;
+.item1 {
+  background: url("image/item1.png");
+  color: red;
 }
 
-.item-2 {
-  width: 2em;
+.item2 {
+  background: url("image/item2.png");
+  color: blue;
 }
 
-.item-3 {
-  width: 3em;
+.item3 {
+  background: url("image/item3.png");
+  color: black;
 }
 
-.item-4 {
-  width: 4em;
+.item1 {
+  background: url("/image/item1.png");
+  color: red;
 }
 
-.item-5 {
-  width: 5em;
+.item2 {
+  background: url("/image/item2.png");
+  color: blue;
 }
 
-.item-6 {
-  width: 6em;
-}
-
-.item-1 {
-  width: 1em;
-}
-
-.item-2 {
-  width: 2em;
-}
-
-.item-3 {
-  width: 3em;
-}
-
-.item-4 {
-  width: 4em;
-}
-
-.item-5 {
-  width: 5em;
-}
-
-.item-6 {
-  width: 6em;
+.item3 {
+  background: url("/image/item3.png");
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
