@@ -1,22 +1,19 @@
 .main {
-  color: black;
-  width: 100%;
+  width: 500px;
+  height: 200px;
+  border-radius: 10px 0px;
+  -moz-border-radius: 10px 0px;
+  -webkit-border-radius: 10px 0px;
+  -o-border-radius: 10px 0px;
 }
-.main .main-content {
-  background-color: blue;
-}
-.main .main-content a {
-  font-weight: bold;
-  font-size: 30px;
-}
-.main .main-content a:hover {
-  color: blue;
-}
-.main .main-info {
-  font-family: Arial;
-  font-size: 30px;
-  font-weight: bold;
-  color: black;
+
+.main2 {
+  width: 700px;
+  height: 300px;
+  border-radius: 10px 5px;
+  -moz-border-radius: 10px 5px;
+  -webkit-border-radius: 10px 5px;
+  -o-border-radius: 10px 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
