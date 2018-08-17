@@ -1,4 +1,6 @@
-.border{
+//Place holder selector
+
+%border{
 	border-radius: 10px 0px;
   	-moz-border-radius: 10px 0px;
   	-webkit-border-radius: 10px 0px;
@@ -21,5 +23,10 @@
 }
 
 .main2{
-	@extend .border;
+	@extend %border;
 }
+
+//When use the placeholder selecter with the % symbol.
+//Then when we use the %border, and .main2 extends from it.
+//It will only how the .main2 with the attribute from %border
+//The other .main with extends from .border is still fine.
